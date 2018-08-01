@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper]{moderncv/moderncv}
+
+% moderncv themes
+\moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.95]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+\AtBeginDocument{\setlength{\maketitlenamewidth}{15cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+\usepackage{hyperref}								% to use hyperlinks
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\firstname{Jean Pierre}
+\familyname{Pacheco Avila}
+\title{Resumen}               % optional, remove the line if not wanted
+\address{México}{CDMX}    % optional, remove the line if not wanted
+%\mobile{+30 698 4385057}                    % optional, remove the line if not wanted
+\mobile{5568156149}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{jeanpierre@ciencias.unam.mx}                      % optional, remove the line if not wanted
+%\email{\href{mailto:s.dakourou@gmail.com}{s.dakourou@gmail.com}}                      % optional, remove the line if not wanted
+%\homepage{http://gr.linkedin.com/pub/stefania-dakourou/41/21a/396}%{LinkedIn Profile}}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[60pt][0.2pt]{jean.jpg}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Educación}
+\cventry{\small 2011-2015}{Licenciatura en Ciencias de la Computación}{Facultad de Ciencias, UNAM}{}{}{PASANTE. 100\% de créditos}
+
+\section{Experiencia}
+\cvline{\small Más de 2 años}{ Desarrollo Web. Javascript, PHP, HTML5, CSS3, SQL, AngularJs}
+\cvline{\small Más de 3 años}{ Programación orientada a objetos (POO). Java, Python, PHP, Javascript.}
+\cvline{\small 1 año comprobable}{ Desarrollo de sistemas electorales. INE.}
+
+\section{Proyectos destacados}
+\cvline{\small Java:}{Participación en el desarrollo del Sistema de Registro de Actas. INE - Proceso electoral 2018}
+\cvline{\small Java:}{Participación en el desarrollo del Sistema de Cómputos distritales y de circunscripción. INE - Proceso electoral 2018}
+\cvline{\small Javascript:}{Implementación del algoritmo de rutas más cortas (Dijktra) para app de sistema ACABUS.}
+\cvline{\small C, C++:}{Desarrollo de un compilador para un subconjunto de Python.}
+\cvline{\small Python:}{Implementación de métodos numéricos para derivación, integración, sistemas de ecuaciones, etc.}
+\cvline{\small C     :}{Implementación de subconjuntos de los protocolos FTP y HTTP.}
+\cvline{\small Python:}{Algoritmo Neighbor Joining para el cálculo de árboles filogenéticos.}
+\cvline{\small Página Web   :}{\url{www.lebrandcapital.com}}
+\cvline{\small Página Web   :}{\url{www.amerivacs.com/NEW/index.html}}
+
+\cvline{\small Repositorio Github :}{\url{https://github.com/jpachecov?tab=repositories}}
+
+
+\section{Idiomas}
+\cvline{\small Español :}{Nativo}{}
+\cvline{\small Inglés :}{Comprensión de lectura (Intermedio-Avanzado). Escrito (Intermedio)}{}
+
+\section{Habilidades en computación y desarrollo}
+\cvline{\small Lenguajes:}{Java, Javascript, Python, Node, PHP, C, C++}
+\cvline{\small SMBD:}{SQLDeveloper, PostgresSQL, MySQL}
+\cvline{\small Desarrollo Web:}{Spring, Primefaces, Hibernate, AngularJS, NodeJS, PHP, Twitter Bootstrap, HTML5, CSS3, JQuery, Spring MVC (básico) }
+\cvline{\small Sistemas operativos:}{Linux, MacOS, Windows.}
+\cvline{\small Colaboración:}{SVN, Github, Bitbucket, Trello.}
+
+\cvline{\small Intermedio:}{\small PHP, Python, C, C++, MySQL, PostgresSQL}
+\cvline{\small Avanzado:}{\small Desarrollo Web, Web Services API REST, POO, Java, J2EE, Javascript, HTML5, CSS3, AngularJS, Frontend development.}
+
+\cvline{\small Nota:}{Creo en el Cálculo Lambda y en el Diseño Centrado en el Usuario.}
+
+\section{Cualidades}
+\cvline{\small Habilidades personales:}{
+
+Fuertemente analítico. Capacidad de resolver problemas usando un enfoque matemático y computacional. Dispuesto a desarrollar nuevas habilidades.
+Rápido aprendizaje de herramientas computacionales y lenguajes de programación. 
+Fácil adaptabilidad ante diversas situaciones. Colaboración, trabajo en equipo y comunicación.
+
+}
+\cvline{\small Experiencia con:}{Programación en entornos Web. Programación orientada a objetos. Desarrollo Web. Metodología SCRUM.}
+
+
+\section{Última actualizacion}
+\cvline{}{Julio 2018}
+
+
+\end{document}
+
