@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  1 OCT 2018 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.4)  1 OCT 2018 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**curriculum.tex
-(./curriculum.tex
+**curriculum-eng.tex
+(./curriculum-eng.tex
 LaTeX2e <2018-04-01> patch level 5
 (./moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter d
@@ -849,8 +849,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 51.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 51.
 
-(./curriculum.aux)
-\openout1 = `curriculum.aux'.
+(./curriculum-eng.aux)
+\openout1 = `curriculum-eng.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -926,15 +926,15 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(14.93861pt, 567.63065pt, 14.93861pt)
-* v-part:(T,H,B)=(16.90195pt, 802.79192pt, 25.35298pt)
+* h-part:(L,W,R)=(8.96225pt, 579.58336pt, 8.96227pt)
+* v-part:(T,H,B)=(10.14014pt, 819.69646pt, 15.21025pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=567.63065pt
-* \textheight=802.79192pt
-* \oddsidemargin=-57.33138pt
-* \evensidemargin=-57.33138pt
-* \topmargin=-92.36804pt
+* \textwidth=579.58336pt
+* \textheight=819.69646pt
+* \oddsidemargin=-63.30774pt
+* \evensidemargin=-63.30774pt
+* \topmargin=-99.12985pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -966,9 +966,9 @@ LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
 
-(./curriculum.out) (./curriculum.out)
+(./curriculum-eng.out) (./curriculum-eng.out)
 \@outlinefile=\write4
-\openout4 = `curriculum.out'.
+\openout4 = `curriculum-eng.out'.
 
 \makecvheaddetailsbox=\box57
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 54.
@@ -1021,7 +1021,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 59.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 59.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 72.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 78.
 (c:/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1032,22 +1032,22 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./jean.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
- (./curriculum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
-Package rerunfilecheck Info: File `curriculum.out' has not changed.
-(rerunfilecheck)             Checksum: E60591C194B446289D9013C7F250CEB3;901.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+ (./curriculum-eng.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package rerunfilecheck Info: File `curriculum-eng.out' has not changed.
+(rerunfilecheck)             Checksum: E8CE180C2B3ED9DAF49C43B0B6BEA474;824.
  ) 
 Here is how much of TeX's memory you used:
- 30319 strings out of 492642
- 556686 string characters out of 6133163
- 639862 words of memory out of 5000000
+ 30321 strings out of 492642
+ 556756 string characters out of 6133163
+ 640870 words of memory out of 5000000
  33789 multiletter control sequences out of 15000+600000
- 582036 words of font info for 72 fonts, out of 8000000 for 9000
+ 582125 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,65p,776b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,11n,65p,780b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2018/tex
 mf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type
 1/public/lm/lmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.p
@@ -1057,7 +1057,7 @@ pe1/public/lm/lmro10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro
 17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro9.pfb><c:/texlive/
 2018/texmf-dist/fonts/type1/public/lm/lmtt9.pfb><c:/texlive/2018/texmf-dist/fon
 ts/type1/public/marvosym/marvosym.pfb>
-Output written on curriculum.pdf (1 page, 325423 bytes).
+Output written on curriculum-eng.pdf (1 page, 313210 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

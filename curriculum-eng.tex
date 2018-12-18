@@ -1,0 +1,120 @@
+\documentclass[10pt,a4paper, colorlinks, urlcolor=links]{moderncv}
+
+% moderncv themes
+\moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.97]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+\AtBeginDocument{\setlength{\maketitlenamewidth}{15cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+\definecolor{links}{HTML}{2A1B81}
+
+% personal data
+\firstname{Jean Pierre}
+\familyname{Pacheco Ávila}
+\title{Resume}               % optional, remove the line if not wanted
+\address{México}{CDMX}    % optional, remove the line if not wanted
+%\mobile{+30 698 4385057}                    % optional, remove the line if not wanted
+\mobile{5568156149}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{jeanpierre@ciencias.unam.mx}                      % optional, remove the line if not wanted
+%\email{\href{mailto:s.dakourou@gmail.com}{s.dakourou@gmail.com}}                      % optional, remove the line if not wanted
+%\homepage{http://gr.linkedin.com/pub/stefania-dakourou/41/21a/396}%{LinkedIn Profile}}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[40pt][0.1pt]{jean.jpg}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% Hyperlinks
+%\usepackage{hyperref}						% to use hyperlinks
+
+
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+% config links
+\hypersetup{urlcolor=links}
+
+
+\section{Education}
+\cventry{\small 2011-2015}{Computer Science Intern }{School of Science, UNAM}{}{}{}
+
+\section{Experience}
+\cvline{\small 2017 - 2018}{\small
+	 Porfessional Software Developer. UNICOM. Electoral National Institute (INE) Mexico City}
+\cvline{\small 2016}{ \small
+	Front-end Developer - Nativo Digital, Marketing Agency. Mexico City}
+\cvline{\small + 2 years}{\small
+	 Web Development, Web and Fron-end Technologies, Javascript, HTML5, CSS3, SQL}
+\cvline{\small + 3 years}{ \small
+	Object Oriented Programming, Java, Python, Javascript}
+
+\section{Relevant Projects}
+\cvline{\small Java, SQL Developer, Spring, Hibernate:}{ \small 
+	Active and direct participation on the design and development of the Distrital and Circumscriptions Computing System used for the Votes Computing and Results Distribution of the latest federal electoral process in Mexico (INE - 2018)}
+
+\cvline{\small Java, SQL Developer, Spring, Hibernate:}{\small Participation in the development of Minutes Registration System used in the latest federal electoral process in Mexico. (INE - 2018)}
+
+\cvline{\small React - 2018 :}{\small Collaborator in the Startup Planexer as Front-end Developer \url{https://www.planexer.com/} }
+
+\cvline{\small PHP, JS}{ \small 
+	Main Developer and Design Collaborator of the Videocine Site \url{https://videocine.com.mx/} at Nativo Digital Marketing Agency (Mexico City)}
+
+\cvline{\small C, C++ (Academic):}{\small Compiler programming for a little Python subset.}
+
+\cvline{\small Python (Academic):}{\small 
+	Implementations for several numerical methods as roots aproximations, n x m equations systems resolution, derivation, integration and differencial equations of first and second order.}
+
+\cvline{\small C (Academic)    :}{ \small 
+	Implementation of a little subsets of the HTTP and FTP protocols as part of the computer networking understanding.}
+
+\cvline{\small Python (Academic):}{\small Neighbor Joining Algorithm}
+
+\cvline{\small Github Repository :}{ \small \url{https://github.com/jpachecov?tab=repositories}}
+
+
+\section{Language}
+\cvline{\small English :}{\small Reading (Intermediate- Advanced). Speaking, writing and listening  (Intermediate)}{}
+\cvline{\small Spanish :}{\small Native}{}
+
+\section{Computing and Development abilities}
+\cvline{\small Programming Languages:}{\small Java, Javascript, Python, Node, C++, C and some others}
+\cvline{\small DBMS:}{\small SQLDeveloper, PostgresSQL, MySQL}
+
+\cvline{\small Web Development:}{\small Spring, Primefaces, Hibernate, ReactJS, AngularJS, NodeJS, Bootstrap, HTML5, CSS3, JQuery, Spring MVC }
+\cvline{\small OS:}{\small Linux, MacOS, Windows.}
+\cvline{\small Collaboration:}{\small SVN, Git protocol. Familiarized with the Gitflow Workflow and the basic use of Docker. I also know the basics of SCRUM methodology.}
+\cvline{\small Intermediate:}{\small Python, C, C++, MySQL, PostgresSQL, ReactJS, AngularJS}
+\cvline{\small Intermediate - Advanced:}{\small 
+	Data Structures and Algorithms, Java, OOP, Web Development, Functional Programming, Javascript, HTML5, CSS3, Front-end Development. SQL, PL/SQL.}
+
+\section{About me}
+\cvline{}{\small 
+	I like challenges and as a computer science intern I have a solid mathematical background to solve problems
+	using a mathematical approach if is required. I've been working in diferent teams with different people, such as developers, engineers, designers, project leaders, etc, so I have an idea of how a good collaboration and constant communication is essential	for the correct and successful project execution. I  believe in the software power of change the world, I'd like to collaborate with people that believe in what they do just as me. I want to participate to get this world better, one step at the time. }
+
+
+\section{Lastest update}
+\cvline{ }{\small September 2018}
+
+\end{document}

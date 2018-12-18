@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{moderncv/moderncv}
+\documentclass[10pt,a4paper, colorlinks, urlcolor=links]{moderncv}
 
 % moderncv themes
 \moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
@@ -13,14 +13,11 @@
 \AtBeginDocument{\setlength{\maketitlenamewidth}{15cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
-% Hyperlinks
-\usepackage{hyperref}								% to use hyperlinks
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+\definecolor{links}{HTML}{2A1B81}
 
 % personal data
 \firstname{Jean Pierre}
-\familyname{Pacheco Avila}
+\familyname{Pacheco Ávila}
 \title{Resumen}               % optional, remove the line if not wanted
 \address{México}{CDMX}    % optional, remove the line if not wanted
 %\mobile{+30 698 4385057}                    % optional, remove the line if not wanted
@@ -30,13 +27,18 @@
 %\email{\href{mailto:s.dakourou@gmail.com}{s.dakourou@gmail.com}}                      % optional, remove the line if not wanted
 %\homepage{http://gr.linkedin.com/pub/stefania-dakourou/41/21a/396}%{LinkedIn Profile}}                % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
-\photo[60pt][0.2pt]{jean.jpg}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\photo[40pt][0.1pt]{jean.jpg}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{Some quote (optional)}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
+
+% Hyperlinks
+%\usepackage{hyperref}						% to use hyperlinks
+
+
 
 % bibliography with mutiple entries
 %\usepackage{multibib}
@@ -47,60 +49,52 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
+
 \maketitle
 
+% config links
+\hypersetup{urlcolor=links}
+
+
 \section{Educación}
-\cventry{\small 2011-2015}{Licenciatura en Ciencias de la Computación}{Facultad de Ciencias, UNAM}{}{}{PASANTE. 100\% de créditos}
+\cventry{\small 2011-2015}{Licenciatura en Ciencias de la Computación}{Facultad de Ciencias, UNAM}{}{}{PASANTE}
 
 \section{Experiencia}
-\cvline{\small Más de 2 años}{ Desarrollo Web. Javascript, PHP, HTML5, CSS3, SQL, AngularJs}
-\cvline{\small Más de 3 años}{ Programación orientada a objetos (POO). Java, Python, PHP, Javascript.}
-\cvline{\small 1 año comprobable}{ Desarrollo de sistemas electorales. INE.}
+\cvline{\small 2017 - 2018}{ Profesional en Desarrollo de Software. UNICOM. Instituto Nacional Electoral}
+\cvline{\small 2016}{ Desarrollador Front-end - Agencia Nativo Digital}
+\cvline{\small + 2 años}{ Desarrollo Web, Javascript, HTML5, CSS3, SQL}
+\cvline{\small + 3 años}{ Programación orientada a objetos, Java, Python, Javascript.}
 
 \section{Proyectos destacados}
-\cvline{\small Java:}{Participación en el desarrollo del Sistema de Registro de Actas. INE - Proceso electoral 2018}
-\cvline{\small Java:}{Participación en el desarrollo del Sistema de Cómputos distritales y de circunscripción. INE - Proceso electoral 2018}
-\cvline{\small Javascript:}{Implementación del algoritmo de rutas más cortas (Dijktra) para app de sistema ACABUS.}
-\cvline{\small C, C++:}{Desarrollo de un compilador para un subconjunto de Python.}
-\cvline{\small Python:}{Implementación de métodos numéricos para derivación, integración, sistemas de ecuaciones, etc.}
-\cvline{\small C     :}{Implementación de subconjuntos de los protocolos FTP y HTTP.}
-\cvline{\small Python:}{Algoritmo Neighbor Joining para el cálculo de árboles filogenéticos.}
-\cvline{\small Página Web   :}{\url{www.lebrandcapital.com}}
-\cvline{\small Página Web   :}{\url{www.amerivacs.com/NEW/index.html}}
-
-\cvline{\small Repositorio Github :}{\url{https://github.com/jpachecov?tab=repositories}}
+\cvline{\small Java,SQL Developer, Spring, Hibernate:}{\small 
+	Participación en el desarrollo del Sistema de Cómputos distritales y de circunscripción (Registro de actas cotejadas, Evaluación de causales de recuento, Integración y distribución de resultados). INE - Proceso electoral 2018}
+\cvline{\small Java, SQL Developer, Spring, Hibernate:}{\small Participación en el desarrollo del Sistema de Registro de Actas. INE - Proceso electoral 2018}
+\cvline{\small React - 2018 :}{\small Colaborador en la Startup Planexer como Front-end Developer \url{https://www.planexer.com/} }
+\cvline{\small C, C++ (Académico):}{\small Desarrollo de un compilador para un subconjunto de Python.}
+\cvline{\small Python (Académico):}{\small Implementación de métodos numéricos para derivación, integración, sistemas de ecuaciones, ecuaciones diferenciales de primer y segundo grado etc.}
+\cvline{\small C (Académico)    :}{\small Implementación de subconjuntos de los protocolos FTP y HTTP.}
+\cvline{\small Python (Académico):}{\small Algoritmo Neighbor Joining para el cálculo de árboles filogenéticos.}
+\cvline{\small Página Web   :}{\small \url{https://videocine.com.mx/} - Desarrollo Front End - Nativo Digital}
+\cvline{\small Repositorio Github :}{\small \url{https://github.com/jpachecov?tab=repositories}}
 
 
 \section{Idiomas}
-\cvline{\small Español :}{Nativo}{}
-\cvline{\small Inglés :}{Comprensión de lectura (Intermedio-Avanzado). Escrito (Intermedio)}{}
+\cvline{\small Inglés :}{Reading (Intermedio-Avanzado). Speaking, writing and listening  (Intermedio)}{}
 
 \section{Habilidades en computación y desarrollo}
-\cvline{\small Lenguajes:}{Java, Javascript, Python, Node, PHP, C, C++}
-\cvline{\small SMBD:}{SQLDeveloper, PostgresSQL, MySQL}
-\cvline{\small Desarrollo Web:}{Spring, Primefaces, Hibernate, AngularJS, NodeJS, PHP, Twitter Bootstrap, HTML5, CSS3, JQuery, Spring MVC (básico) }
-\cvline{\small Sistemas operativos:}{Linux, MacOS, Windows.}
-\cvline{\small Colaboración:}{SVN, Github, Bitbucket, Trello.}
+\cvline{\small Lenguajes:}{\small Java, Javascript, Python, Node, C++, C y algunos otros}
+\cvline{\small SMBD:}{\small SQLDeveloper, PostgresSQL, MySQL}
+\cvline{\small Desarrollo Web:}{\small Spring, Primefaces, Hibernate, ReactJS, AngularJS, NodeJS, Bootstrap, HTML5, CSS3, JQuery, Spring MVC }
+\cvline{\small Sistemas operativos:}{\small Linux, MacOS, Windows.}
+\cvline{\small Colaboración:}{\small SVN, Github, Bitbucket, Trello. Familiarizado con Gitflow Workflow y uso básico de Docker. Conozco la metodología SCRUM}
+\cvline{\small Intermedio:}{\small Python, C, C++, MySQL, PostgresSQL, ReactJS, AngularJS}
+\cvline{\small Avanzado:}{ \small Algoritmos y estructuras de datos. Desarrollo Web, POO, Java, Javascript, HTML5, CSS3, Frontend development. SQL, PL/SQL.}
 
-\cvline{\small Intermedio:}{\small PHP, Python, C, C++, MySQL, PostgresSQL}
-\cvline{\small Avanzado:}{\small Desarrollo Web, Web Services API REST, POO, Java, J2EE, Javascript, HTML5, CSS3, AngularJS, Frontend development.}
-
-\cvline{\small Nota:}{Creo en el Cálculo Lambda y en el Diseño Centrado en el Usuario.}
-
-\section{Cualidades}
-\cvline{\small Habilidades personales:}{
-
-Fuertemente analítico. Capacidad de resolver problemas usando un enfoque matemático y computacional. Dispuesto a desarrollar nuevas habilidades.
-Rápido aprendizaje de herramientas computacionales y lenguajes de programación. 
-Fácil adaptabilidad ante diversas situaciones. Colaboración, trabajo en equipo y comunicación.
-
-}
-\cvline{\small Experiencia con:}{Programación en entornos Web. Programación orientada a objetos. Desarrollo Web. Metodología SCRUM.}
-
+\section{Sobre mi}
+\cvline{}{ \small
+		Me gustan los retos y como pasante de Ciencias de la Computación tengo una base matemática sólida para resolver problemas usando un enfoque matemático si se requiere. A lo largo de mi experiencia he colaborado en varios equipos y con diversas personas, desarrolladores, ingenieros, diseñadores, líderes, etc y sé lo importante que significa una correcta colaboración y constante comunicación para que un proyecto sea exitoso. Quisiera trabajar con gente que crea en lo que hace tal como yo lo hago. Creo en el software y su poder de cambiar el mundo. Me gustaría mejorar nuestro mundo, un paso a la vez.}
 
 \section{Última actualizacion}
-\cvline{}{Julio 2018}
-
+\cvline{ }{\small Septiembre 2018}
 
 \end{document}
-
